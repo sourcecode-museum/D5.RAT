@@ -2,11 +2,12 @@ program RAT;
 
 uses
   Forms,
-  uFrmMain in 'uFrmMain.pas' {frmMain},
-  uFrmChamadas in 'uFrmChamadas.pas' {frmChamadas},
-  uFrmAtend in 'uFrmAtend.pas' {frmAtend},
-  uFrmClientes in 'uFrmClientes.pas' {frmClientes},
-  uFrmTecnicos in 'uFrmTecnicos.pas' {frmTecnicos};
+  uFrmMain in 'Forms/uFrmMain.pas' {frmMain},
+  uFrmChamadas in 'Forms/uFrmChamadas.pas' {frmChamadas},
+  uFrmAtend in 'Forms/uFrmAtend.pas' {frmAtend},
+  uFrmClientes in 'Forms/uFrmClientes.pas' {frmClientes},
+  uFrmTecnicos in 'Forms/uFrmTecnicos.pas' {frmTecnicos},
+  uGlobal in 'Units/uGlobal.pas';
 
 {$R *.RES}
 
